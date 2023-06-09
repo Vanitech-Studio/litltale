@@ -1,0 +1,40 @@
+{
+  "seo": {
+    "id": 3,
+    "sitename": "default value",
+    "author": "default",
+    "twitter": "@jsonvalue",
+    "favicon": {
+      "data": {
+          "id": 2,
+          "attributes": {
+              "url": "/uploads/android_chrome_192x192_899aaf57a4.png"
+          }
+      }
+    }
+  },
+  "location": {
+      "adress": "blank city",
+      "city": "blank city",
+      "email": "youremail@email.com",
+      "phone": "0768310289"
+  },
+  "navigation":{
+    "data": [   
+        {
+          "id": 2,
+          "attributes": {
+            "pagename": "link-1",
+            "slug": "link-1"
+          }
+        },
+        {
+          "id": 3,
+          "attributes": {
+            "pagename": "link-2",
+            "slug": "link-2"
+          }
+        }
+      ]
+  }
+}

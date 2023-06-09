@@ -1,0 +1,52 @@
+{
+    "banner": {
+        "id": 2,
+        "title": "blank value",
+        "baseline": "blank value",
+        "backgroundcolor": {
+            "name": "background",
+            "color": {
+                "data": {
+                    "id": 1,
+                    "attributes": {
+                        "color": "#000000",
+                        "name": "background"
+                    }
+                }
+            }
+        },
+        "backgroundimage": {
+            "data": null
+        }
+    },
+    "seo": {
+        "id": 1,
+        "metatitle": "blank value",
+        "metadescription": "blank value",
+        "twittername": "@twitter-handle",
+        "robots": false,
+        "keywords": "blank value",
+        "shareimage": {
+            "data": {
+                "id": 2,
+                "attributes": {
+                    "url": "/uploads/valentinhardy_Portrait_of_a_30_year_old_man_wearing_a_skate_cap_15d193fc_8bd2_48b9_af32_d1924a3cd18e_8f21c23b77.png"
+                }
+            }
+        }
+    },
+    "theme": {
+        "id": 1,
+        "color": [
+            {
+                "value": "#FFFFFF",
+                "name": "text"
+            }
+            ,
+            {
+                "value": "#000000",
+                "name": "background"
+            }
+        ]
+    }
+}
