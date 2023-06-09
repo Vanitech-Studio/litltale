@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "displayName": "navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "routes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::route.route"
+    }
+  }
+}

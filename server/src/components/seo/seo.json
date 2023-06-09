@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metadescription": {
+      "type": "text",
+      "default": "metadescription",
+      "required": true
+    },
+    "robots": {
+      "type": "boolean"
+    },
+    "keywords": {
+      "type": "text",
+      "default": "keywords, keywords, keywords",
+      "required": true
+    },
+    "shareimage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metatitle": {
+      "type": "string",
+      "default": "metatitle-default",
+      "required": true
+    }
+  }
+}

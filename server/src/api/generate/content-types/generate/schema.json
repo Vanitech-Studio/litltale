@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "generates",
+  "info": {
+    "singularName": "generate",
+    "pluralName": "generates",
+    "displayName": "Generate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "input_theme_placeholder": {
+      "type": "string",
+      "required": true,
+      "default": "Thème de l'histoire"
+    },
+    "input_heroes_placeholder": {
+      "type": "string",
+      "required": true,
+      "default": "Héroes de l'histoire"
+    },
+    "button_text": {
+      "type": "string",
+      "required": true,
+      "default": "Valider"
+    },
+    "explanation_text": {
+      "type": "richtext",
+      "default": "Explication du fonctionnement de l'application.",
+      "required": true
+    },
+    "explanation_title": {
+      "type": "string",
+      "default": "C'est parti !",
+      "required": true
+    },
+    "story_section_title": {
+      "type": "string",
+      "default": "Vos histoires",
+      "required": true
+    },
+    "loading_story_title": {
+      "type": "string",
+      "required": true,
+      "default": "Histoire en cours d'écriture..."
+    },
+    "loading_story_cover_url": {
+      "type": "string",
+      "required": true,
+      "default": "https://media.discordapp.net/attachments/1088388909999853660/1110178430475046932/Job_Illustration_for_children_3D_animation_vibrant_colors_detai_8094eafa-ab9e-4d1c-b479-117c2b8e70a4.png?width=1024&height=574"
+    }
+  }
+}

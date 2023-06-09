@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generated_stories",
+  "info": {
+    "singularName": "generated-story",
+    "pluralName": "generated-stories",
+    "displayName": "Generated stories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content_final": {
+      "type": "richtext",
+      "required": false
+    },
+    "theme": {
+      "type": "string",
+      "required": true
+    },
+    "heroes": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "type": "string",
+      "required": false
+    },
+    "content_gpt": {
+      "type": "richtext"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::beta-user.beta-user",
+      "inversedBy": "generated_stories"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cover_url": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.story-seo"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "gpt_ready_time": {
+      "type": "datetime"
+    },
+    "story_ready_time": {
+      "type": "datetime"
+    },
+    "story_ready": {
+      "type": "boolean",
+      "default": false
+    },
+    "gpt_generation_duration": {
+      "type": "string"
+    },
+    "mj_generation_duration": {
+      "type": "string"
+    },
+    "total_generation_duration": {
+      "type": "string"
+    },
+    "story_error": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_theme_themes",
+  "info": {
+    "displayName": "Theme",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "displayName": "Color",
+      "type": "component",
+      "repeatable": true,
+      "component": "color.color"
+    }
+  }
+}

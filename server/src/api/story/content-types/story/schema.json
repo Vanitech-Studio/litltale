@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "stories",
+  "info": {
+    "singularName": "story",
+    "pluralName": "stories",
+    "displayName": "Story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "button_share_story": {
+      "type": "string",
+      "required": true,
+      "default": "Imprimer mon histoire"
+    },
+    "button_new_story": {
+      "type": "string",
+      "required": true,
+      "default": "Créer une nouvelle histoire"
+    },
+    "button_feedback": {
+      "type": "string",
+      "default": "Donner mon avis",
+      "required": true
+    },
+    "feedback_form_url": {
+      "type": "string",
+      "required": true,
+      "default": "https://base-cms-git-storygpt-vanitech-studio.vercel.app/"
+    },
+    "story_not_found": {
+      "type": "string",
+      "default": "Cette histoire n'existe pas ou n'est pas disponible.",
+      "required": true
+    }
+  }
+}

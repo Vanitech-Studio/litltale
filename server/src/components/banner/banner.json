@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "title",
+      "maxLength": 25
+    },
+    "baseline": {
+      "type": "string",
+      "required": true,
+      "default": "default baseline"
+    },
+    "backgroundcolor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "color.color",
+      "required": false
+    },
+    "backgroundimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

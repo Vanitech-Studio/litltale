@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "welcome_text": {
+      "type": "text",
+      "required": true,
+      "default": "Bienvenue dans la beta de StoryGPT"
+    },
+    "input_placeholder": {
+      "type": "string",
+      "unique": false,
+      "required": true,
+      "default": "Code d'accès"
+    },
+    "button_text": {
+      "type": "string",
+      "required": true,
+      "default": "Valider"
+    },
+    "illustration_url": {
+      "type": "string",
+      "required": true,
+      "default": "https://media.discordapp.net/attachments/1088388909999853660/1110178430475046932/Job_Illustration_for_children_3D_animation_vibrant_colors_detai_8094eafa-ab9e-4d1c-b479-117c2b8e70a4.png?width=1024&height=574"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "theme.theme"
+    },
+    "explanation_text": {
+      "type": "text",
+      "default": "Entrez votre béta code et découvrez l'univers magique de notre application! Laissez l'IA créer des histoires captivantes et uniques pour vos enfants, enrichissant leur imaginaire à chaque utilisation.",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_seo_story_seos",
+  "info": {
+    "displayName": "Story SEO"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string",
+      "required": true,
+      "default": "title"
+    },
+    "meta_description": {
+      "type": "string",
+      "default": "metadescription",
+      "required": true
+    },
+    "robots": {
+      "type": "boolean"
+    },
+    "share_image_url": {
+      "type": "string",
+      "required": true,
+      "default": "https://cdn.discordapp.com/attachments/1108318248858030121/1111636486824140830/RogerfHinton_Illustration_for_children_3D_animation_vibrant_col_de506b74-cfc2-437a-a397-48834c853b9c.png"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_support_supports",
+  "info": {
+    "displayName": "Support",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "support_card_title": {
+      "type": "string"
+    },
+    "support_url": {
+      "type": "string"
+    },
+    "support_card_text": {
+      "type": "string"
+    },
+    "support_section_title": {
+      "type": "string"
+    }
+  }
+}

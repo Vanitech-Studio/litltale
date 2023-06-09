@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beta_users",
+  "info": {
+    "singularName": "beta-user",
+    "pluralName": "beta-users",
+    "displayName": "Beta users",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "access_code": {
+      "type": "uid",
+      "required": true
+    },
+    "generated_stories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::generated-story.generated-story",
+      "mappedBy": "user"
+    },
+    "story_generation": {
+      "type": "boolean",
+      "default": false
+    },
+    "last_generation": {
+      "type": "datetime"
+    }
+  }
+}

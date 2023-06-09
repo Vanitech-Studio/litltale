@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_location_locations",
+  "info": {
+    "displayName": "location"
+  },
+  "options": {},
+  "attributes": {
+    "adress": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "regex": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,6}$"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^[\\+]?[(]?[0-9]{3}[)]?[-\\s\\.]?[0-9]{3}[-\\s\\.]?[0-9]{4,6}$",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_default_seo_default_seos",
+  "info": {
+    "displayName": "globalseo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sitename": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "twitter": {
+      "type": "string",
+      "required": true,
+      "default": "@twitterdefaultaccount"
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "default": "default-author"
+    }
+  }
+}

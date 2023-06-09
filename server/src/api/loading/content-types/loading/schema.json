@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "loadings",
+  "info": {
+    "singularName": "loading",
+    "pluralName": "loadings",
+    "displayName": "Loading",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "loading_text": {
+      "type": "string",
+      "required": true,
+      "default": "Nous écrivons votre histoire..."
+    },
+    "loading_lottie_url": {
+      "type": "string",
+      "default": "https://assets10.lottiefiles.com/packages/lf20_atampd9z.json",
+      "required": true
+    },
+    "story_section_title": {
+      "type": "string",
+      "default": "Les histoires de la communauté",
+      "required": true
+    },
+    "explanation_text": {
+      "type": "richtext",
+      "default": "Cela peut prendre quelques minutes. En attendant, découvrez les histoires créées par la communauté.",
+      "required": true
+    },
+    "story_failure": {
+      "type": "string",
+      "default": "Nous sommes navrés, la création de votre histoire a échoué.",
+      "required": true
+    },
+    "button_new_story": {
+      "type": "string",
+      "required": true,
+      "default": "Créer une nouvelle histoire"
+    },
+    "story_notfound": {
+      "type": "string"
+    }
+  }
+}

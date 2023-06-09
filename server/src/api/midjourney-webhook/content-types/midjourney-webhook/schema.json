@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "midjourney_webhooks",
+  "info": {
+    "singularName": "midjourney-webhook",
+    "pluralName": "midjourney-webhooks",
+    "displayName": "MidjourneyWebhook",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "callback": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

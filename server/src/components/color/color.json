@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_color_colors",
+  "info": {
+    "displayName": "Colors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "background",
+        "text",
+        "cyan",
+        "red",
+        "white",
+        "slate"
+      ]
+    },
+    "value": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}
